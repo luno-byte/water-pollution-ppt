@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Pollution: A Global Environmental Crisis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Navigation -->
+        <nav class="navigation">
+            <button class="nav-btn" id="prevBtn">❮ Previous</button>
+            <div class="slide-counter">
+                <span id="currentSlide">1</span> / <span id="totalSlides">15</span>
+            </div>
+            <button class="nav-btn" id="nextBtn">Next ❯</button>
+        </nav>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <!-- Slides Container -->
+        <div class="slides-container">
+            <!-- Slide 1: Title Slide -->
+            <div class="slide active" data-slide="1">
+                <div class="slide-content title-slide">
+                    <h1 class="main-title">Water Pollution</h1>
+                    <h2 class="subtitle">A Global Environmental Crisis</h2>
+                    <p class="description">Understanding Causes, Effects, and Solutions</p>
+                    <div class="title-visual">🌊</div>
+                </div>
+            </div>
+
+            <!-- Slide 2: What is Water Pollution -->
+            <div class="slide" data-slide="2">
+                <div class="slide-content">
+                    <h2>What is Water Pollution?</h2>
+                    <div class="content-grid">
+                        <div class="content-left">
+                            <p class="definition">Water pollution occurs when contaminants are introduced into water bodies, making them unfit for consumption or other purposes.</p>
+                            <ul class="key-points">
+                                <li>Chemical substances (heavy metals, pesticides)</li>
+                                <li>Microorganisms (bacteria, viruses)</li>
+                                <li>Waste materials (plastic, organic matter)</li>
+                                <li>Thermal and physical contaminants</li>
+                            </ul>
+                        </div>
+                        <div class="content-right">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1755180859/pplx_project_search_images/0a443fc702d152af940ad881f00b7f46ffdda670.png" alt="Industrial discharge polluting water" class="slide-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Global Statistics -->
+            <div class="slide" data-slide="3">
+                <div class="slide-content">
+                    <h2>Global Statistics</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">2.2B</div>
+                            <div class="stat-label">People lack access to safe water</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">703M</div>
+                            <div class="stat-label">People lack basic water access</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">485,000</div>
+                            <div class="stat-label">Annual deaths from contaminated water</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">80%</div>
+                            <div class="stat-label">Of marine pollution from land sources</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Types of Water Pollution -->
+            <div class="slide" data-slide="4">
+                <div class="slide-content">
+                    <h2>Types of Water Pollution</h2>
+                    <div class="types-grid">
+                        <div class="type-card">
+                            <h4>Surface Water</h4>
+                            <p>Rivers, lakes, oceans</p>
+                        </div>
+                        <div class="type-card">
+                            <h4>Groundwater</h4>
+                            <p>Aquifers, wells</p>
+                        </div>
+                        <div class="type-card">
+                            <h4>Chemical</h4>
+                            <p>Heavy metals, pesticides</p>
+                        </div>
+                        <div class="type-card">
+                            <h4>Microbiological</h4>
+                            <p>Bacteria, viruses</p>
+                        </div>
+                        <div class="type-card">
+                            <h4>Thermal</h4>
+                            <p>Temperature changes</p>
+                        </div>
+                        <div class="type-card">
+                            <h4>Microplastic</h4>
+                            <p>Tiny plastic particles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Major Causes -->
+            <div class="slide" data-slide="5">
+                <div class="slide-content">
+                    <h2>Major Causes of Water Pollution</h2>
+                    <div class="content-grid">
+                        <div class="content-left">
+                            <ul class="causes-list">
+                                <li><strong>Industrial Discharge</strong> - Factories releasing chemicals</li>
+                                <li><strong>Agricultural Runoff</strong> - Fertilizers and pesticides</li>
+                                <li><strong>Untreated Sewage</strong> - Domestic waste</li>
+                                <li><strong>Plastic Pollution</strong> - Single-use plastics</li>
+                                <li><strong>Oil Spills</strong> - Fuel leakage</li>
+                                <li><strong>Urban Runoff</strong> - City waste and chemicals</li>
+                            </ul>
+                        </div>
+                        <div class="content-right">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754648439/pplx_project_search_images/e5939990a27afed4722d8beb7c42c1748efb9ad3.png" alt="Agricultural runoff" class="slide-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Effects on Human Health -->
+            <div class="slide" data-slide="6">
+                <div class="slide-content">
+                    <h2>Effects on Human Health</h2>
+                    <div class="health-effects">
+                        <div class="effect-item">
+                            <div class="effect-icon">🦠</div>
+                            <div class="effect-text">
+                                <h4>Waterborne Diseases</h4>
+                                <p>Cholera, typhoid, dysentery</p>
+                            </div>
+                        </div>
+                        <div class="effect-item">
+                            <div class="effect-icon">⚗️</div>
+                            <div class="effect-text">
+                                <h4>Chemical Contamination</h4>
+                                <p>Heavy metal poisoning</p>
+                            </div>
+                        </div>
+                        <div class="effect-item">
+                            <div class="effect-icon">🫁</div>
+                            <div class="effect-text">
+                                <h4>Respiratory Problems</h4>
+                                <p>From contaminated air near polluted water</p>
+                            </div>
+                        </div>
+                        <div class="effect-item">
+                            <div class="effect-icon">🧬</div>
+                            <div class="effect-text">
+                                <h4>Cancer Risks</h4>
+                                <p>From heavy metals and chemicals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Environmental Impact -->
+            <div class="slide" data-slide="7">
+                <div class="slide-content">
+                    <h2>Environmental Impact</h2>
+                    <div class="content-grid">
+                        <div class="content-left">
+                            <ul class="impact-list">
+                                <li>Loss of aquatic biodiversity</li>
+                                <li>Eutrophication and algal blooms</li>
+                                <li>Food chain disruption</li>
+                                <li>Ocean acidification</li>
+                                <li>Dead zones in water bodies</li>
+                                <li>Climate change interactions</li>
+                            </ul>
+                        </div>
+                        <div class="content-right">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754947496/pplx_project_search_images/4e0f16dc057896c126a5b51bc8e1913cf0adfaf1.png" alt="Sea turtle affected by plastic pollution" class="slide-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Microplastics Crisis -->
+            <div class="slide" data-slide="8">
+                <div class="slide-content">
+                    <h2>Microplastics Crisis</h2>
+                    <div class="content-grid">
+                        <div class="content-left">
+                            <div class="crisis-stats">
+                                <div class="crisis-stat">
+                                    <span class="big-number">358T</span>
+                                    <span class="stat-desc">Microplastic particles in ocean surface</span>
+                                </div>
+                                <ul class="crisis-points">
+                                    <li>Found in 100% of water samples globally</li>
+                                    <li>Affects marine organisms from plankton to whales</li>
+                                    <li>Impacts carbon sequestration</li>
+                                    <li>Human health implications being studied</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754963186/pplx_project_search_images/da5882d481ae97f5817615c16aaadf8db3f4256a.png" alt="Plastic pollution impact on marine life" class="slide-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Case Studies -->
+            <div class="slide" data-slide="9">
+                <div class="slide-content">
+                    <h2>Case Studies</h2>
+                    <div class="case-studies">
+                        <div class="case-study">
+                            <h4>🇮🇳 River Ganga (India)</h4>
+                            <p>Religious activities, untreated sewage, and industrial discharge have severely polluted this sacred river.</p>
+                        </div>
+                        <div class="case-study">
+                            <h4>🇮🇳 Kasadi River (Maharashtra)</h4>
+                            <p>Industrial dyes causing dramatic color changes in river water, affecting local wildlife and communities.</p>
+                        </div>
+                        <div class="case-study">
+                            <h4>🌊 Pacific Ocean Microplastics</h4>
+                            <p>Massive accumulation zones of plastic debris creating "garbage patches" affecting marine ecosystems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Solutions and Prevention -->
+            <div class="slide" data-slide="10">
+                <div class="slide-content">
+                    <h2>Solutions and Prevention</h2>
+                    <div class="content-grid">
+                        <div class="content-left">
+                            <ul class="solutions-list">
+                                <li><strong>Wastewater Treatment</strong> - Primary, secondary, tertiary</li>
+                                <li><strong>Industrial Regulation</strong> - Compliance and monitoring</li>
+                                <li><strong>Sustainable Agriculture</strong> - Reduced chemical use</li>
+                                <li><strong>Plastic Waste Reduction</strong> - Ban single-use plastics</li>
+                                <li><strong>Water Conservation</strong> - Efficient water use</li>
+                                <li><strong>Public Awareness</strong> - Education campaigns</li>
+                            </ul>
+                        </div>
+                        <div class="content-right">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754906970/pplx_project_search_images/73564537041c2fd52a058ac4a081a86413f59205.png" alt="Water treatment plant" class="slide-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Individual Actions -->
+            <div class="slide" data-slide="11">
+                <div class="slide-content">
+                    <h2>Individual Actions</h2>
+                    <div class="actions-grid">
+                        <div class="action-item">
+                            <div class="action-icon">🧽</div>
+                            <div class="action-text">Use phosphate-free detergents</div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon">💊</div>
+                            <div class="action-text">Proper disposal of chemicals and medications</div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon">🚫</div>
+                            <div class="action-text">Reduce single-use plastics</div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon">🌱</div>
+                            <div class="action-text">Support eco-friendly products</div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon">📱</div>
+                            <div class="action-text">Report pollution incidents</div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-icon">💧</div>
+                            <div class="action-text">Water conservation at home</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Technology Solutions -->
+            <div class="slide" data-slide="12">
+                <div class="slide-content">
+                    <h2>Technology Solutions</h2>
+                    <div class="content-grid">
+                        <div class="content-left">
+                            <div class="tech-solutions">
+                                <div class="tech-item">
+                                    <h4>Advanced Wastewater Treatment</h4>
+                                    <p>Multi-stage filtration and purification</p>
+                                </div>
+                                <div class="tech-item">
+                                    <h4>Bioremediation</h4>
+                                    <p>Using plants like Water Hyacinth</p>
+                                </div>
+                                <div class="tech-item">
+                                    <h4>Smart Monitoring Systems</h4>
+                                    <p>Real-time water quality detection</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1755142602/pplx_project_search_images/65005dfce4a658209588529a81a2e26a70f9bb1a.png" alt="Advanced wastewater treatment plant" class="slide-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Global Initiatives -->
+            <div class="slide" data-slide="13">
+                <div class="slide-content">
+                    <h2>Global Initiatives</h2>
+                    <div class="initiatives-grid">
+                        <div class="initiative-card">
+                            <h4>🌍 UN Sustainable Development Goals</h4>
+                            <p>Goal 6: Clean water and sanitation for all</p>
+                        </div>
+                        <div class="initiative-card">
+                            <h4>📊 International Water Quality Standards</h4>
+                            <p>WHO and EPA guidelines for safe water</p>
+                        </div>
+                        <div class="initiative-card">
+                            <h4>🤝 Regional Cooperation Programs</h4>
+                            <p>Cross-border water management initiatives</p>
+                        </div>
+                        <div class="initiative-card">
+                            <h4>🔬 Technology Transfer Programs</h4>
+                            <p>Sharing treatment technologies globally</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Future Outlook -->
+            <div class="slide" data-slide="14">
+                <div class="slide-content">
+                    <h2>Future Outlook</h2>
+                    <div class="outlook-content">
+                        <div class="outlook-warning">
+                            <h4>⚠️ Projections for 2050</h4>
+                            <p>3 billion more people will face water scarcity</p>
+                        </div>
+                        <div class="challenges-opportunities">
+                            <div class="challenges">
+                                <h5>Challenges:</h5>
+                                <ul>
+                                    <li>Emerging pollutant types</li>
+                                    <li>Climate change impacts</li>
+                                    <li>Growing population demands</li>
+                                </ul>
+                            </div>
+                            <div class="opportunities">
+                                <h5>Opportunities:</h5>
+                                <ul>
+                                    <li>Technology advancement</li>
+                                    <li>International cooperation</li>
+                                    <li>Sustainable innovation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: Conclusion -->
+            <div class="slide" data-slide="15">
+                <div class="slide-content conclusion-slide">
+                    <h2>Conclusion</h2>
+                    <div class="conclusion-content">
+                        <ul class="conclusion-points">
+                            <li>Water pollution is a critical global issue requiring immediate attention</li>
+                            <li>Solutions exist but need widespread implementation</li>
+                            <li>Everyone has a role to play in protecting water resources</li>
+                            <li>Collective action can create meaningful change</li>
+                        </ul>
+                        <blockquote class="final-quote">
+                            "Clean water is a human right and environmental necessity"
+                        </blockquote>
+                        <div class="thank-you">Thank You</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
